@@ -10,7 +10,7 @@ entity cla_NBlocks is
     port(
         A,B : in bit_vector(K-1 downto 0);
 
-        carry_flag : out bit; -- Can chek overflow on unsigned numbers
+        carry_flag : out bit; -- Carry-out; indicates overflow for N-bit unsigned addition
         signed_overflow_flag : out bit; -- Checks overflow on signed numbers (2 complement)
         R: out bit_vector(K-1 downto 0)
     );
