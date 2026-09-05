@@ -1,6 +1,15 @@
 # VHDL Basics - Vivado
 
-Repository containing my VHDL learning projects developed using AMD Vivado.
+## Purpose
+
+This repository documents my progress learning digital logic design,
+VHDL, FPGA and ASIC development and simulation.
+
+## Tools
+
+- VHDL
+- AMD Vivado
+- XSim
 
 ## Learning Projects
 
@@ -58,18 +67,11 @@ can therefore be more efficient than manually implementing the adder architectur
 
 
 ## Basic Functions
-- AND gate
-- 1-bit full adder
-- 4-bit full adder
-- Fixed-point 4-bit adder
 
-## Tools
+*(Miscellaneous entities used for learning concepts)*
 
-- VHDL
-- AMD Vivado
-- XSim
-
-## Purpose
-
-This repository documents my progress learning digital logic design,
-VHDL, FPGA development and simulation.
+* AND gate
+* 1-bit full adder
+* 4-bit full adder
+* 4-bit fixed-point adder
+* Traffic light FSM
